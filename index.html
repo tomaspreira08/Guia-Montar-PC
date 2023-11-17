@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de como montar um computador</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        h1 {
+            color: #fff;
+            margin-top: 50px;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 24px;
+            line-height: 1.6;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .info {
+            display: none;
+        }
+
+        /* Adicionando estilo para centralizar o conteúdo */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="background-video">
+        <video autoplay muted loop>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <h1>Guia de como montar um computador</h1>
+
+        <h2>Primeiro é necessário escolher os componentes que queremos utilizar no nosso computador. Aqui estão os
+            componentes que eu utilizei:
+            <br>
+            <a href="Componentes.html"> Componentes Utilizados</a>
+            <p>Começamos a montagem do computador com as memórias RAM.
+                <br>
+                <a href="Memórias RAM.html"> Montagem das Memórias Ram</a>
+            </p>
+            <p>De seguida montamos o armazenamento.
+                <br>
+                <a href="Armazenamento.html"> Montagem do SSD</a>
+            </p>
+            <p>Agora montamos a placa gráfica.
+                <br>
+                <a href="Placa gráfica.html"> Montagem da Placa Gráfica</a>
+            </p>
+            <p>Para finalizar a motherboard colocamos o processador e o cooler.
+                <br>
+                <a href="Processador e Cooler.html"> Montagem do Processador e do Cooler</a>
+            </p>
+            <br>
+            <p>Com a motherboard preenchida, instalamo-la na caixa.
+                <br>
+                <a href="Placa Mãe.html"> Instalação da placa mãe</a>
+            </p>
+            <br>
+            <p>Para finalizar, montamos a fonte na caixa.
+                <br>
+                <a href="Fonte de Alimentação.html">Montagem da Fonte</a>
+            </p>
+        </h2>
+    </div>
+
+    <script>
+        function mostrarInfo(idInfo) {
+            document.getElementById(idInfo).style.display = 'block';
+        }
+
+        function esconderInfo(idInfo) {
+            document.getElementById(idInfo).style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
