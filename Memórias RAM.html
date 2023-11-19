@@ -1,21 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Montágem das Memórias RAM</title>
- <style>
-     body {
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; Remova esta linha */
-    font-family: 'Arial', sans-serif;
+    <title>Montagem das Memórias RAM</title>
+    <link rel="shortcut icon" href="/imágens/RAM.png" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
         }
 
-
         #background-video {
-            position:fixed;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
@@ -29,22 +29,8 @@
             height: 100%;
         }
 
-        h1 {
-            color: #fff;
-            margin-top: 50px;
-            font-size: 36px;
-        }
-
         h2 {
-            color: #fff;
-            font-size: 24px;
-            line-height: 1.6;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        h3{color: #fff;
+            color: #ffffff;
             font-size: 24px;
             line-height: 1.6;
             padding: 20px;
@@ -58,43 +44,62 @@
             font-weight: bold;
         }
 
-        .info {
-            display: none;
-        }
-
-        /* Adicionando estilo para centralizar o conteúdo */
         .container {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             height: 100vh;
+            padding: 20px;
+            margin-top: 50px; /* Ajuste a margem superior conforme necessário */
+        }
+
+        button {
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #ffffff;
+            color: #000000;
         }
     </style>
 </head>
+
 <body>
+        <a href="index.html"><button>Voltar para a página inicial</button></a>
+        <a href="Armazenamento.html"><button>Próxima página</button></a>
+
+
     <div id="background-video">
         <video autoplay muted loop>
             <source src="background.mp4" type="video/mp4">
         </video>
     </div>
 
-    <h2> <center>O primeiro passo para montarmos o nosso computador é colocarmos as memórias RAM na motherboard.<br> </center>
-<ol>
-    <li>Encontre as slots das memórias RAM na motherboard;</li>
-    <li>Começamos por abrir as travas das slots;</li>
-    <li>De seguida colocamos as memórias nos slots, tendo atenção em quais são os slots primários e os secundários,também é preciso ter cuidado na maneira em que os pins entram;</li>
-    <li>Precionamos levemente as memória até ouvirmos dois clicks ou vermos que as travas fecharam.</li>
- </ol>
- <center> <img src="RAM 2.png"> 
- <br>
- <img src="RAM 1.png">
- <br>
-<img src="RAM 3.png" <br>
-</h2>
-<h2>De seguida um vídeo explicativo: </h2>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/T03aDrJPyQs?si=eZ2p1xRH8d-93yj2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
+    <h2>O primeiro passo para montarmos o nosso computador é colocarmos as memórias RAM na motherboard.
+        <ol>
+            <li>Encontre as slots das memórias RAM na motherboard;</li>
+            <li>Começamos por abrir as travas das slots;</li>
+            <li>De seguida colocamos as memórias nos slots, tendo atenção em quais são os slots primários e os
+                secundários, também é preciso ter cuidado na maneira em que os pins entram;</li>
+            <li>Precionamos levemente as memória até ouvirmos dois clicks ou vermos que as travas fecharam.</li>
+        </ol>
+    </h2>
+    <center>
+        <img src="imágens/RAM 2.png">
+        <br>
+        <img src="imágens/RAM 1.png">
+        <br>
+        <img src="imágens/RAM 3.png">
+    </center>
+    <h2>De seguida um vídeo explicativo:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T03aDrJPyQs?si=eZ2p1xRH8d-93yj2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
+
 </html>
